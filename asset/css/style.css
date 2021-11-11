@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    outline: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+}   
+.nav_links h1{
+    color: #ecf0f1;
+    font-size: 20px;
+    border: #ffa31a solid 3px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.nav_links h1:hover{
+    transition: 1s;
+    border: #ecf0f1 solid 3px;
+    color: #ffa31a;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+.nav_links li a:hover{
+    color:#ffa31a;
+}
+.left_Side{
+    width: 50%;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 40px;
+    float: left;
+}
+.left_Side h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    color: #ecf0f1;
+    margin: 5px;
+    cursor: pointer;
+}
+.left_Side h2{
+    font-family:sans-serif;
+    color: #ffa31a;
+    float: right;
+    margin-right: 160px;
+    cursor: pointer;
+}
+.left_Side form{
+    box-shadow: 0px 0px 19px 8px rgba(23, 24, 26, 0.82);
+    width: 90%;
+    margin-left: 20px;
+    padding: 20px;
+}
+.left_Side form h3{
+    color: #ffa31a;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.left_Side form input[type=email]{
+    width: 80%;
+    height: 36px;
+    padding: 20px 10px;
+    border: #ffa31a solid 2px;
+    border-radius: 10px;
+    color: #ecf0f1;
+    margin: 10px;
+    font-size: 17px;
+}
+.left_Side form .message{
+    width: 80%;
+    height: 300px;
+    padding: 20px 10px;
+    border: #ffa31a solid 2px;
+    border-radius: 10px;
+    color: #ecf0f1;
+    margin: 10px;
+    font-size: 17px;
+}
+.left_Side form ::placeholder{
+    color: #ecf0f1;
+}
+.left_Side form .btn1{
+
+    width: 40%;
+    height: 36px;
+    border: #ffa31a 2px solid;
+    border-radius: 10px;
+    color: #ecf0f1;
+    font-size: 17px;
+    
+}
+.left_Side form .btn1:hover{
+
+    background-color: #17171a;
+    cursor: pointer;
+}
+.right_Side{
+    width: 50%;
+    height: 310px;
+    text-align: left;
+    padding: 30px 10px;
+    margin-top: 90px;
+    float: right;
+
+}
+.box_shadow{
+    box-shadow: 0px 0px 19px 8px rgba(23, 24, 26, 0.82);
+    padding: 30px 5px;
+    display: flex;
+}
+
+.border_left{
+    border-left: #ffa31a solid 2px;
+}
+.right_Side h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    color: #ecf0f1;
+    margin: 5px;
+    cursor: pointer;
+    padding: 3px;
+}
+.right_Side .name{
+    font-size: 35px;
+    color: #ffa31a;
+}
+.right_Side .school{
+    color: #ffa31a;
+    font-size: 25px;
+}
+.right_Side .ugh{
+    color: #ecf0f1;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.right_Side .left .info{
+    font-size: 18px;
+    float: left;
+    width: 70%;
+}
+.right_Side .right{
+    width: 30%;
+    float: right;
+    margin-right: 10px
+;
+}
+.right_Side .qr_code{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: #ffa31a 3px solid;
+}
+.right_Side .scan{
+    color: #ecf0f1;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
